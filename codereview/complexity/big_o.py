@@ -96,3 +96,4 @@ class BigO:
             # Call stack frames
             return cls.O_N
         return cls.O_1
+

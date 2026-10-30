@@ -24,3 +24,4 @@ int main(void) {
     printf("%lld\n", avg);
     return 0;
 }
+

@@ -106,3 +106,4 @@ def print_pair_programmer_advice(failures: List[Dict[str, Any]]) -> None:
             print(f"    {hint}")
 
     print(f"\n{Colors.DIM}{'=' * 76}{Colors.RESET}\n")
+

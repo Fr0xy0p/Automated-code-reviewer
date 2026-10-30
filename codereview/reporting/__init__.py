@@ -19,3 +19,4 @@ __all__ = [
     "generate_markdown_report",
     "generate_json_report",
 ]
+

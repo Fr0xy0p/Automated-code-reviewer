@@ -301,3 +301,4 @@ def analyze_cpp_source(source_code: str, file_path: str = "source.cpp") -> FileA
         functions=functions,
         global_issues=global_issues,
     )
+

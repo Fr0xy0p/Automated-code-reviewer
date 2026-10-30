@@ -53,3 +53,4 @@ def calculate_maintainability_index(sloc: int, cyclomatic_complexity: int, halst
     )
     normalized = max(0.0, min(100.0, (raw_mi * 100.0) / 171.0))
     return round(normalized, 2)
+

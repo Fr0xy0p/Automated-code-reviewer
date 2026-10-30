@@ -25,3 +25,4 @@ class TestVector:
             "description": self.description,
             "tags": self.tags,
         }
+

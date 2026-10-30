@@ -23,3 +23,4 @@ classifiers = [
 [project.scripts]
 codereview = "codereview.cli:main"
 code-profiler = "codereview.cli:main"
+

@@ -10,3 +10,4 @@ __all__ = [
     "uninstall_git_hook",
     "install_github_action_workflow",
 ]
+

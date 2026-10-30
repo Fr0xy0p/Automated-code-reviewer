@@ -95,3 +95,4 @@ def recommend_complexity(n: int) -> str:
         return "O(N)"
     else:
         return "O(log N) or O(1)"
+

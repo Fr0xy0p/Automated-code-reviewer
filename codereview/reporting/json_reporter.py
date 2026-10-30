@@ -33,3 +33,4 @@ def generate_json_report(
         "ai_diagnoses": ai_diagnoses,
     }
     return json.dumps(payload, indent=2)
+

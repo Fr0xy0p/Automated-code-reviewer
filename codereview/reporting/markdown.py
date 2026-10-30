@@ -158,3 +158,4 @@ def generate_markdown_report(
     ])
 
     return "\n".join(lines)
+

@@ -140,3 +140,4 @@ def explain_failure_offline(
             "invariant_to_maintain": "Defensive Preconditions: Handle empty, negative, or extreme boundary inputs gracefully.",
             "next_step_hint": "Review the stack trace and add defensive checks for edge cases.",
         }
+

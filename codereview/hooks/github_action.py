@@ -73,3 +73,4 @@ def install_github_action_workflow(repo_path: str = ".") -> Tuple[bool, str]:
         f.write(GITHUB_ACTION_TEMPLATE)
 
     return True, f"GitHub Action workflow created at {workflow_path}"
+

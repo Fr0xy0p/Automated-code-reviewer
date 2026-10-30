@@ -10,3 +10,4 @@ def quicksort(nums):
     less = [x for x in nums[1:] if x <= pivot]
     greater = [x for x in nums[1:] if x > pivot]
     return quicksort(less) + [pivot] + quicksort(greater)
+

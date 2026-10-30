@@ -41,3 +41,4 @@ def get_pair_programmer_explanation(
     offline_diag = explain_failure_offline(result, analysis, source_code)
     offline_diag["engine"] = "Offline Expert Heuristic Engine"
     return offline_diag
+

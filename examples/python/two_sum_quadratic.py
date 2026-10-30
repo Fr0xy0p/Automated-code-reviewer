@@ -10,3 +10,4 @@ def two_sum(nums, target):
             if nums[i] + nums[j] == target:
                 return [i, j]
     return []
+

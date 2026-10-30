@@ -119,3 +119,4 @@ class FileAnalysisResult:
             "global_issues": [issue.to_dict() for issue in self.global_issues],
             "all_issues": [issue.to_dict() for issue in self.all_issues],
         }
+

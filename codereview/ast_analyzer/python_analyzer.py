@@ -435,3 +435,4 @@ def analyze_python_source(source_code: str, file_path: str = "source.py") -> Fil
         functions=visitor.functions,
         global_issues=visitor.global_issues,
     )
+

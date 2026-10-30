@@ -255,3 +255,4 @@ When `GEMINI_API_KEY` is not present, the tool automatically uses its **Offline 
 
 ## 📄 License
 MIT License. Created for Google DeepMind Advanced Agentic Coding.
+

@@ -14,3 +14,4 @@ def binary_search(nums, target):
         else:
             high = mid - 1
     return -1
+

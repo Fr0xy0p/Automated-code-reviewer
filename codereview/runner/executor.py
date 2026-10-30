@@ -48,3 +48,4 @@ class TestResult:
             "stack_trace": self.stack_trace,
             "vector_description": self.vector_description,
         }
+
