@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: codereview
+        name: Automated Code Reviewer & Complexity Profiler
+        entry: python3 -m codereview.cli review --strict
+        language: system
+        types_or: [python, c, c++]
+        stages: [pre-commit]
