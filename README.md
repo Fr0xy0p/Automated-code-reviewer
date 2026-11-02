@@ -45,15 +45,43 @@ An intelligent, multi-language developer tool and CI/GitHub Action that inspects
 * `clang` / `clang++` or `gcc` / `g++` (for C/C++ review)
 * `git`
 
-### Installation
-You can run the tool directly with zero external dependencies (pure Python standard library), or install it into your environment:
+### Quick Installation (Recommended for macOS / Linux)
+
+On modern macOS, running `pip install` directly can trigger the PEP 668 `error: externally-managed-environment`. We provide an instant 1-step installer that connects `codereview` directly to your `~/.local/bin` (no pip or virtualenv required):
 
 ```bash
-# Clone or navigate to the repository
-cd "Automated Code Reviewer"
+# 1. Navigate to the project directory
+cd "/Users/yuraj/Automated Code Reviewer "
 
-# Install as CLI binary (optional)
-pip install -e .
+# 2. Run the instant installer
+./install.sh
+```
+
+Now you can run `codereview` or `code-profiler` from **any directory** in your terminal!
+
+```bash
+codereview --help
+```
+
+---
+
+### Alternative Ways to Run
+
+#### Option 1: Run directly with the local launcher (No install required)
+```bash
+./bin/codereview review examples/python/clean_solution.py
+```
+
+#### Option 2: Run via Python module
+```bash
+python3 -m codereview.cli review examples/python/clean_solution.py
+```
+
+#### Option 3: Install via pip (with PEP 668 override or virtual environment)
+```bash
+pip install --break-system-packages -e .
+# OR via a virtual environment:
+python3 -m venv .venv && source .venv/bin/activate && pip install -e .
 ```
 
 ---
